@@ -14,6 +14,8 @@ namespace WebApplication2.Models
 
         public DbSet<CartItems> CartItems { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+
+        public DbSet<BookingInformation> BookingInformation { get; set; }
    
    
     }

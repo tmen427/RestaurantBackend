@@ -102,3 +102,11 @@ C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Swa
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\System.Net.Http.Formatting.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\System.Web.Http.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Hellang.Middleware.ProblemDetails.dll
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\release\web.config
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\release\appsettings.Development.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\release\appsettings.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\release\WebApplication2.deps.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\release\WebApplication2.runtimeconfig.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Moq.dll

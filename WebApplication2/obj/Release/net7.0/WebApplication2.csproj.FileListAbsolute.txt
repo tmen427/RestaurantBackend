@@ -102,3 +102,9 @@ C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\N
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\Scrutor.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\release\web.config
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\release\appsettings.Development.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\release\appsettings.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\release\WebApplication2.deps.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\release\WebApplication2.runtimeconfig.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\Hellang.Middleware.ProblemDetails.dll

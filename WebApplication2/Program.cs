@@ -1,4 +1,5 @@
 using Hangfire;
+using Hellang.Middleware.ProblemDetails;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -9,8 +10,10 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.Net;
 using System.Text;
+using WebApplication2.BackgroundServices;
 using WebApplication2.Models;
-using WebApplication2.Services;
+using WebApplication2.Repository;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,9 +22,12 @@ builder.Services.Configure<ForwardedHeadersOptions>(options =>
     options.KnownProxies.Add(IPAddress.Parse("34.224.64.48"));
 });
 
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
+builder.Services.AddTransient<IRepo<CartItems>, CartItemsRepo>(); 
+builder.Services.AddTransient<IRepo<User>, UsersRepo>();
 
 //use in memory database instead of sql database right now 
 builder.Services.AddDbContext<ToDoContext>(options => options.UseSqlServer("name=WebApp2"));
@@ -44,6 +50,7 @@ builder.Services.AddDbContext<ToDoContext>(options => options.UseSqlServer("name
 
 //builder.Services.AddDbContext<ToDoContext>(opt =>
 //   opt.UseInMemoryDatabase("TodoList"));
+
 
 
 
@@ -126,15 +133,10 @@ builder.Services.AddCors(options =>
 });
 
 
-builder.Services.AddTransient<IOperationTransient, Operation>();
-builder.Services.AddSingleton<IOperationSingleton, Operation>();
-builder.Services.AddScoped<IOperationScoped, Operation>();
-builder.Services.AddTransient<OperationService>();
-
-
 builder.Services.AddHttpContextAccessor();
 
-
+//the background service 
+//builder.Services.AddHostedService<DatabaseBackGround>(); 
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -162,7 +164,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
 app.UseCors("EnableCORS");
 

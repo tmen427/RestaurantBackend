@@ -46,6 +46,22 @@
           }
         }
       },
+      "Castle.Core/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Hangfire/1.8.4": {
         "type": "package",
         "dependencies": {
@@ -179,6 +195,25 @@
             "related": ".xml"
           }
         }
+      },
+      "Hellang.Middleware.ProblemDetails/6.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Metadata": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Hellang.Middleware.ProblemDetails.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Hellang.Middleware.ProblemDetails.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Humanizer.Core/2.14.1": {
         "type": "package",
@@ -956,6 +991,23 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Moq/4.18.0": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1436,6 +1488,32 @@
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
           }
         }
       },
@@ -1931,6 +2009,19 @@
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Metadata/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
             "related": ".xml"
           }
         }
@@ -2661,6 +2752,30 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+    "Castle.Core/5.0.0": {
+      "sha512": "edc8jjyXqzzy8jFdhs36FZdwmlDDTgqPb2Zy1Q5F/f2uAc88bu/VS/0Tpvgupmpl9zJOvOo5ZizVANb0ltN1NQ==",
+      "type": "package",
+      "path": "castle.core/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle-logo.png",
+        "castle.core.5.0.0.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net462/Castle.Core.dll",
+        "lib/net462/Castle.Core.xml",
+        "lib/net6.0/Castle.Core.dll",
+        "lib/net6.0/Castle.Core.xml",
+        "lib/netstandard2.0/Castle.Core.dll",
+        "lib/netstandard2.0/Castle.Core.xml",
+        "lib/netstandard2.1/Castle.Core.dll",
+        "lib/netstandard2.1/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
     "Hangfire/1.8.4": {
       "sha512": "zZQSDRzPTF5szbzFlXIOm2aifKqX/7buHmlDJtMJ+5LlnPlhaoheJh1jnR6BDlYmU0QEI425+Fo3/QOe1IFSnA==",
       "type": "package",
@@ -2844,6 +2959,24 @@
         "lib/netstandard2.0/Hangfire.SqlServer.dll",
         "lib/netstandard2.0/Hangfire.SqlServer.xml",
         "tools/install.sql"
+      ]
+    },
+    "Hellang.Middleware.ProblemDetails/6.5.1": {
+      "sha512": "LgceF4mPguB/q3NWs6T3bitOFnYIANSRvfhASMgVb8ks7fSqY8jbdBHoVEuUDmxg3T7+kF21qSE0jQv9hdpLng==",
+      "type": "package",
+      "path": "hellang.middleware.problemdetails/6.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hellang.middleware.problemdetails.6.5.1.nupkg.sha512",
+        "hellang.middleware.problemdetails.nuspec",
+        "lib/net5.0/Hellang.Middleware.ProblemDetails.dll",
+        "lib/net5.0/Hellang.Middleware.ProblemDetails.xml",
+        "lib/net6.0/Hellang.Middleware.ProblemDetails.dll",
+        "lib/net6.0/Hellang.Middleware.ProblemDetails.xml",
+        "lib/netcoreapp3.1/Hellang.Middleware.ProblemDetails.dll",
+        "lib/netcoreapp3.1/Hellang.Middleware.ProblemDetails.xml",
+        "problem-logo.png"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4170,6 +4303,26 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "Moq/4.18.0": {
+      "sha512": "FweC21Di1QYRovLbEK6Nu1rHrTwueXw0/1GtGgpH7YvSR/yeiLRfs2otUZdBhyAJJW7SZ0UUSNIBjcLyDFLerw==",
+      "type": "package",
+      "path": "moq/4.18.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Moq.dll",
+        "lib/net462/Moq.xml",
+        "lib/net6.0/Moq.dll",
+        "lib/net6.0/Moq.xml",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
+        "lib/netstandard2.1/Moq.dll",
+        "lib/netstandard2.1/Moq.xml",
+        "moq.4.18.0.nupkg.sha512",
+        "moq.nuspec",
+        "moq.png"
+      ]
+    },
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -4989,6 +5142,37 @@
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "sha512": "lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Diagnostics.EventLog.dll",
+        "lib/net461/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Diagnostics.Tools/4.3.0": {
@@ -6411,6 +6595,30 @@
         "ref/xamarinwatchos10/_._",
         "system.reflection.extensions.4.3.0.nupkg.sha512",
         "system.reflection.extensions.nuspec"
+      ]
+    },
+    "System.Reflection.Metadata/5.0.0": {
+      "sha512": "5NecZgXktdGg34rh1OenY1rFNDCI8xSjFr+Z4OU4cU06AQHUdRnIIEeWENu3Wl4YowbzkymAIMvi3WyK9U53pQ==",
+      "type": "package",
+      "path": "system.reflection.metadata/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Reflection.Metadata.dll",
+        "lib/net461/System.Reflection.Metadata.xml",
+        "lib/netstandard1.1/System.Reflection.Metadata.dll",
+        "lib/netstandard1.1/System.Reflection.Metadata.xml",
+        "lib/netstandard2.0/System.Reflection.Metadata.dll",
+        "lib/netstandard2.0/System.Reflection.Metadata.xml",
+        "lib/portable-net45+win8/System.Reflection.Metadata.dll",
+        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
+        "system.reflection.metadata.5.0.0.nupkg.sha512",
+        "system.reflection.metadata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
@@ -8254,6 +8462,7 @@
       "Hangfire >= 1.8.4",
       "Hangfire.MemoryStorage >= 1.8.0",
       "Hangfire.SqlServer >= 1.8.4",
+      "Hellang.Middleware.ProblemDetails >= 6.5.1",
       "Microsoft.AspNet.WebApi.Core >= 5.2.9",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.10",
       "Microsoft.AspNetCore.OpenApi >= 7.0.7",
@@ -8261,6 +8470,7 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
+      "Moq >= 4.18.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "Swashbuckle.AspNetCore.Filters >= 7.0.8"
     ]
@@ -8286,7 +8496,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8316,6 +8525,10 @@
           "Hangfire.SqlServer": {
             "target": "Package",
             "version": "[1.8.4, )"
+          },
+          "Hellang.Middleware.ProblemDetails": {
+            "target": "Package",
+            "version": "[6.5.1, )"
           },
           "Microsoft.AspNet.WebApi.Core": {
             "target": "Package",
@@ -8347,6 +8560,10 @@
             "target": "Package",
             "version": "[7.0.10, )"
           },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.18.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.5.0, )"
@@ -8375,7 +8592,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },

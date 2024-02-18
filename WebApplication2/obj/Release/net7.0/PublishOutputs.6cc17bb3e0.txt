@@ -1,6 +1,11 @@
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\WebApplication2.exe
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\release\web.config
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\appsettings.Development.json
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\appsettings.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\release\appsettings.Development.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\release\appsettings.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\release\WebApplication2.deps.json
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\release\WebApplication2.runtimeconfig.json
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\WebApplication2.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\WebApplication2.runtimeconfig.json
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\WebApplication2.pdb
@@ -11,6 +16,7 @@ C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\p
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\Hangfire.MemoryStorage.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\Hangfire.NetCore.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\Hangfire.SqlServer.dll
+C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\Hellang.Middleware.ProblemDetails.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\System.Net.Http.Formatting.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\System.Web.Http.dll
 C:\Users\tmac4\source\repos\WebApplication2\WebApplication2\bin\Release\net7.0\publish\Microsoft.AspNetCore.Authentication.JwtBearer.dll
